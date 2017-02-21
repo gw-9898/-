@@ -1,0 +1,15 @@
+ @charset "utf-8";
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	list-style-type: none;
+ }
+ .all{
+ 	width: 1420px;
+ 	height: 500px;
+ 	margin: 0 auto;
+ 	background-color: red;
+ }
+ .header{
+ 	
+ }
