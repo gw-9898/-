@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	border:none;
+	font-size:12px;
+	font-family:"微软雅黑";
+	list-style-type:none;
+	
+}
+#header {
+	margin:auto;
+	height:100px;
+	width:980px;
+	background-image: url(images/201303081415407024.png);
+	background-repeat: no-repeat;
+	background-position:left bottom;
+}
+#nav{
+	float:right;
+	width:660px;
+	height:35px;
+	border-bottom:2px solid #9cce34;
+	margin-top:50px;
+	margin-right:20px;
+	
+}
+
+#nav ul li{
+	float:left;
+	width:110px;
+	text-align:center;
+	
+}
+
+#nav ul li a{
+	color:#9999a4;
+	text-decoration:none;
+	font-weight:600;
+}
+
+
+#nav ul li a:hover{
+	color:#F36;
+}
+#banner {
+	margin: 0 auto;
+	width: 1200px;
+	height: 300px;
+	background-color: #bcb66c;
+	background-image: url(images/201303081417477026.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#content {
+	height:550px;
+	margin:20px auto 10px auto;
+	width: 980px;
+}
+#newsclass {
+	width:215px;
+	padding-right:20px;
+	height:120px;
+	background-image: url(images/bt.gif);
+	background-repeat: no-repeat;
+	float:left;
+}
+#content #newsclass h4 {
+	line-height:120px;
+	width:205px;
+	height::32px;
+	border-bottom: solid 2px #ddd;
+	padding-left:10px;
+	padding-bottom:30px;
+	
+}
+#content #newsclass ul li {
+	height: 35px;
+	width: 185px;
+	line-height:35px;
+	padding-left:30px;
+	border-bottom: dotted 1px #ddd;
+	background:url(images/green.jpg) no-repeat 15px center;
+	
+}
+#content #newsclass ul li:hover {
+	background-color:#C00;
+	
+}
+
+#content #newsclass ul li a {
+	color:#666;
+	text-decoration:none;
+	font-weight:400;
+}
+
+#content #newsclass ul li a:hover{
+	color:#FFF;
+	
+	}
+#news {
+	width:744px;
+	float:left;
+	border-left:solid 1px #999;
+}
+
+#content #news h5 {
+	height: 32px;
+	padding-left: 10px;
+	line-height: 32px;
+	font-weight: 400;
+	background-image:url(images/1212.jpg);	
+	
+}
+#content #news ul{
+	width:705px;
+	margin:20px 0px 120px 20px;
+}
+#content #news ul li{
+	height:35px;
+	line-height:35px;
+	border-bottom:dashed 1px #999;
+	}	
+#content #news ul li a{
+	color:#999;
+	text-decoration:none;
+	}
+#content #news ul li a:hover{
+	color:#C00;
+	}
+#content #news ul li span {
+	float:right;
+	
+}
+
+
+#content #news h3 {
+	color:#666;
+	font-size:20px;
+	text-align:center;
+}
+
+#foot {
+	margin:auto;
+	height:150px;
+	width:1200px;
+	padding-top:25px;
+	text-align:center;
+	background-color: #d8ebab;
+	border-top: solid 1px #666;
+	color:#009900;
+	line-height:25px;
+}
+#content #news #wenzi {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+
