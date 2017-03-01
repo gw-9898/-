@@ -5,11 +5,34 @@
  	list-style-type: none;
  }
  .all{
- 	width: 1420px;
- 	height: 500px;
+ 	width: 1000px;
  	margin: 0 auto;
  	background-color: red;
  }
- .header{
+ #header{
  	
+ }
+ #content{
+ 	width: 600px;
+ 	height: 200px;
+ 	background-color: #3d3b14;
+
+ }
+ .left{
+ 	width: 150px;
+ 	background-color: #4e94c8;
+
+ }
+ .left ul{
+
+ }
+ .left ul li{
+ 	
+ 	line-height: 40px;
+ }
+ .right{
+
+ }
+ #footer{
+
  }

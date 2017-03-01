@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="untitled.css">
+</head>
+<body>
+<div id="heade">
+     <div id="top"></div>
+     <div class="out h-con"></div>
+</div>
+<div id="banner">
+	<div class="out b-con"></div>
+</div>
+
+
+
+<div id="wrap" class="out">
+	<div id="phone" class="phone content">手机通讯</div>
+	<div id="computer" class="computer content">电脑</div>
+	<div id="phone" class="phone content">数码相机</div>
+	<div id="ear" class="ear content">数码耳机</div>
+	<div id="basktaball" class="basktaball content">篮球</div>
+	<div id="clock" class="clock content">闹钟</div>
+	<div id="hzp" class="hzp content">化妆品</div>
+	<div id="bag" class="bag content">包包</div>
+	<div id="game" class="game content">游戏</div>
+	<div id="vip" class="vip content">会员</div>
+	<div id="play" class="play content">娱乐</div>
+	<div id="school" class="school content">教育</div>
+	
+</div>
+
+
+
+<div id="nav">
+	<ul>
+		<li><a href="#phone"></a></li>
+		<li><a href="#computer"></a></li>
+		<li><a href="#phone"></a></li>
+		<li><a href="#ear"></a></li>
+		<li><a href="#basktaball"></a></li>
+		<li><a href="#clock"></a></li>
+		<li><a href="#hzp"></a></li>
+		<li><a href="#bag"></a></li>
+		<li><a href="#game"></a></li>
+		<li><a href="#vip"></a></li>
+		<li><a href="#play"></a></li>
+		<li><a href="#school"></a></li>
+	</ul>
+</div>
+<div id="foot"></div>
+<script src="./js/jquery.js"></script>
+<script type="text/javascript">
+$(window).scroll(function(){
+	var Top = $(window).scrollTop();
+	if(Top >= $("#phone").offset().top)
+	{
+		$("#nav").css("display","block");
+	}else{
+		$("#nav").css("display","none");
+	}
+});
+
+	
+
+
+
+
+
+</script>
+
+</body>
+</html>

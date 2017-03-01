@@ -1,0 +1,148 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#heade{
+	width: 100%;
+	height: 238px;
+	border: 1px solid #000;
+}
+#top{
+	width: 100%;
+	height: 35px;
+	background-color: #ccc;
+}
+.out{
+	width: 1200px;
+	margin:  0 auto;
+}
+.h-con{
+	height: 203px;
+	background: red;
+
+}
+.b-con{
+	height: 440px;
+	background: blue;
+}
+.content{
+	width: 100%;
+	height: 500px;
+}
+.phone{
+	background: #933;
+}
+.computer{
+	background: #931;
+}
+.phone{
+	background: #923;
+}
+.ear{
+	background: #943;
+}
+.basktaball{
+	background: #935;
+}
+.clock{
+	background: #963;
+}
+.hzp{
+	background: #938;
+}
+.bag{
+	background: #993;
+}
+.game{
+	background: #939;
+}
+.vip{
+	background: #973;
+}
+.play{
+	background: #983;
+}
+.school{
+	background: #953;
+}
+#nav{
+	width: 40px;
+	height: 540px;
+	background: green;
+	position: fixed;
+	top: 80px;
+	left: 40px;
+}
+#nav ul li{
+	width: 40px;
+	height: 45px;
+}
+#nav ul li a{
+	display: block; 
+	width: 40px;
+	height: 45px;
+	background: url("./images/lm.png") no-repeat;
+}
+/*兄弟节点选择器*/
+#nav ul li:nth-child(1) a{
+	background-position: 10px 0px;
+}
+#nav ul li:nth-child(2) a{
+	background-position: -24px 0px;
+}
+#nav ul li:nth-child(3) a{
+	background-position: -56px 0px;
+}
+#nav ul li:nth-child(4) a{
+	background-position: -88px 0px;
+}
+#nav ul li:nth-child(5) a{
+	background-position: -120px 0px;
+}
+#nav ul li:nth-child(6) a{
+	background-position: -152px 0px;
+}
+#nav ul li:nth-child(7) a{
+	background-position: -184px 0px;
+}
+#nav ul li:nth-child(8) a{
+	background-position: -216px 0px;
+}
+#nav ul li:nth-child(9) a{
+	background-position: -244px 0px;
+}
+#nav ul li:nth-child(10) a{
+	background-position: -274px 0px;
+}
+#nav ul li:nth-child(11) a{
+	background-position: -302px 0px;
+}
+#nav ul li:nth-child(12) a{
+	background-position: -330px 0px;
+}
+
+#foot{
+	width: 100%;
+	height: 200px;
+	background: #6f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
