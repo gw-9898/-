@@ -5,6 +5,11 @@
 	text-decoration: none;
 	list-style-type: none;
 }
+body{
+	background: url(./imgs/BG.jpg) no-repeat;
+	background-size: cover;
+	/*铺满*/
+}
 .header{
 	width: 100%;
 	height: 45px;
@@ -40,15 +45,12 @@
 .nav a:hover{
 	color: #dd6a3e;
 }
-#cont{
-	background-color: #99c8e6;
-}
 #content{
 	width: 1000px;
-	height: 500px;
+	height: 1000px;
 	margin: 0 auto;
     padding-top: 10px;
-	background-color: #000;
+	
 }
 .zuo{
 	width: 150px;
@@ -131,9 +133,42 @@
 	cursor: pointer;/*小手*/
 	
 }
+.bb{
+	height: 30px;
+	margin-top: 10px;
+	padding-top: 10px;
+	background: url(./imgs/字框.jpg) no-repeat;
+}
+
+.bb form{
+	float: right;
+	display:inline-flex;
+}
+.bb a{
+	color: #2a2925;
+	padding-left: 15px;
+}
+.bb a:hover{
+	color: #ee6b23;
+}
+.kuan2 input{ 
+	width:180px; 
+	height:15px; 
+}
+.an2 input{ 
+	width:30px;
+	height:20px; 
+	background:url(./imgs/搜索框.jpg) no-repeat;
+    border: none;
+}
+
+
+
+
 #gg{
 	width: 600px;
 	margin: 15px auto;
+	padding-top: 20px;
 
 
 
@@ -177,13 +212,7 @@
 	line-height: 20px;
 
 }
-.bb{
-	height: 50px;
-  
-}
-.bb a{
-	line-height: 40px;
-}
+
 
 
 

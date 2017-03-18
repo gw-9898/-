@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="untitled.css">
+</head>
+<body>
+<div class="but"><span class="click">换肤</span></div>
+<div class="pic">
+	<ul>
+
+		<li class="first" datesrc="bg_pic1.jpg"><img src="./images/nav_pic1.jpg" width="170" height="107">
+		<span class="ioc"></span></li>
+		<li datesrc="bg_pic2.jpg"><img src="./images/nav_pic2.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic3.jpg"><img src="./images/nav_pic3.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic4.jpg"><img src="./images/nav_pic4.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic5.jpg"><img src="./images/nav_pic5.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic6.jpg"><img src="./images/nav_pic6.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic7.jpg"><img src="./images/nav_pic7.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic8.jpg"><img src="./images/nav_pic8.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic9.jpg"><img src="./images/nav_pic9.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+		<li datesrc="bg_pic10.jpg"><img src="./images/nav_pic10.jpg" width="170" height="107">
+		<span class="ioc"></span></li></li>
+	</ul>
+</div>
+<script src="./js/jquery-2.1.4.js"></script>
+<script>
+	//alert(0);
+	$(".click").click(function(e){
+		//alert(111);
+		$(".pic").slideDown();
+		e.stopPropagation();//阻止冒泡； 
+			})
+	$(document).click(function(){
+		$(".pic").slideUp();
+	})
+	$(".pic").click(function(e){
+		e.stopPropagation();//因为PIC包含在document里面；
+    })
+    //
+    $(".pic ul li").click(function(){
+    	$(this).addClass("first").siblings().removeClass("first");
+    	var imasrc = $(this).attr("datesrc");
+    	$("body").css("background-image","url('./images/"+imasrc+"')")
+    })
+</script>
+
+
+
+
+
+</body>
+</html>
